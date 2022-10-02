@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cmake_examples_install"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake_examples_inst">
+				<Option output="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/libcmake_examples_inst.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_examples_inst"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake_examples_inst/fast">
+				<Option output="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/libcmake_examples_inst.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_examples_inst/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake_examples_inst_bin">
+				<Option output="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/cmake_examples_inst_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_examples_inst_bin"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake_examples_inst_bin/fast">
+				<Option output="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/cmake_examples_inst_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/include"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_examples_inst_bin/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/src/Hello.cpp">
+			<Option target="cmake_examples_inst"/>
+		</Unit>
+		<Unit filename="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/src/main.cpp">
+			<Option target="cmake_examples_inst_bin"/>
+		</Unit>
+		<Unit filename="/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

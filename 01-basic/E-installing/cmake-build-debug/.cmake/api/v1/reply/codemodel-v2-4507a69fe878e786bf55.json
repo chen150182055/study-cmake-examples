@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-169aac4fe38927198d9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cmake_examples_install",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_examples_inst::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_examples_inst-Debug-c8a61d649df783da5f60.json",
+					"name" : "cmake_examples_inst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cmake_examples_inst_bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cmake_examples_inst_bin-Debug-a2fc673ceb9a583769b7.json",
+					"name" : "cmake_examples_inst_bin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing/cmake-build-debug",
+		"source" : "/mnt/d/ClionProject/C++/cmake-examples/01-basic/E-installing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
